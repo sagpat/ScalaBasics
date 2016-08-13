@@ -5,11 +5,11 @@ package Basics
   */
 object ChapterSeven extends App {
 
-
   val examples = new Examples()
   val gdcValue =  examples.gcd(12,7)
   println("GCD is: " + gdcValue+ "\n")
 
   examples.forTestInScala()
+  examples.grep(".*")
 
 }

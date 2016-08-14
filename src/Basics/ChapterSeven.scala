@@ -11,5 +11,6 @@ object ChapterSeven extends App {
 
   examples.forTestInScala()
   examples.grep(".*")
+  examples.ExceptionHandling(4)
 
 }

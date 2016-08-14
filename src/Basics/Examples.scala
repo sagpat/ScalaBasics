@@ -1,4 +1,7 @@
 package Basics
+import java.io.FileNotFoundException
+import java.io.FileReader
+import java.io.IOException
 
 /**
   * Created by Sagar on 13-08-2016.
@@ -48,5 +51,31 @@ class Examples {
       ) println(file + ": " + line.trim)
 
     }
+
+  // Exception handling in Scala
+  // In scala throw is an expression that has a result type
+  def ExceptionHandling(n: Int): Unit = {
+
+    val half =
+      if(n%2 == 0)
+        n/2
+    else
+        throw new RuntimeException("n must be even")  // exception throw has type 'nothing'
+
+    println(half)
+    // try and catch
+    val f = new FileReader("D:\\pos.txt")
+    try{
+    }
+//    catch {
+//      case ex: FileNotFoundException =>
+//      case ex: IOException =>
+//    }
+    finally {
+        f.close()
+    }
+
+  }
+
 
 }

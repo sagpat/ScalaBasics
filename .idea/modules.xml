@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D://ScalaBasics/ScalaBasics.iml" filepath="D://ScalaBasics/ScalaBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScalaBasics.iml" filepath="$PROJECT_DIR$/ScalaBasics.iml" />
     </modules>
   </component>
 </project>
